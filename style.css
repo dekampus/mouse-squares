@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, p, .container {
+    padding: 10px 15px;
+}
+
+p {
+    padding-top: 0;
+}
+
+.rowContainer {
+    width: fit-content;
+    height: auto;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #ffb0f9;
+    margin: 5px;
+}
